@@ -62,6 +62,7 @@ public class Video {
 		public VideoBuilder withContentType(String contentType);
 	}
 
+	
 	private long id;
 	private String title;
 	private long duration;

@@ -108,7 +108,6 @@ public class VideoFileManager {
 	 */
 	public void saveVideoData(Video v, InputStream videoData) throws IOException{
 		assert(videoData != null);
-		
 		Path target = getVideoPath(v);
 		Files.copy(videoData, target, StandardCopyOption.REPLACE_EXISTING);
 	}
